@@ -63,7 +63,7 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Automated uploads to [PyPI] and [TestPyPI]
 - Automated release notes with [Release Drafter]
 - Automated dependency updates with [Dependabot]
-- Code formatting with [Black] and [Prettier]
+- Code formatting with [Black] ~~and [Prettier]~~
 - Import sorting with [isort]
 - Testing with [pytest]
 - Code coverage with [Coverage.py]
