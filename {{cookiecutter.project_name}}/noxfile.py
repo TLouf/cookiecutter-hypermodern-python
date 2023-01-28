@@ -203,7 +203,13 @@ def docs_build(session: Session) -> None:
         args.insert(0, "--color")
 
     session.install(".")
-    session.install("sphinx", "pydata-sphinx-theme", "myst-parser")
+    session.install(
+        "numpydoc",
+        "sphinx",
+        "sphinx_copybutton",
+        "pydata-sphinx-theme",
+        "myst-parser",
+    )
 
     build_dir = Path("docs", "_build")
     if build_dir.exists():
@@ -217,7 +223,14 @@ def docs(session: Session) -> None:
     """Build and serve the documentation with live reloading on file changes."""
     args = session.posargs or ["--open-browser", "docs/source", "docs/_build"]
     session.install(".")
-    session.install("sphinx", "sphinx-autobuild", "pydata-sphinx-theme", "myst-parser")
+    session.install(
+        "numpydoc",
+        "sphinx",
+        "sphinx-autobuild",
+        "sphinx_copybutton",
+        "pydata-sphinx-theme",
+        "myst-parser",
+    )
 
     build_dir = Path("docs", "_build")
     if build_dir.exists():
