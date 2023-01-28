@@ -30,7 +30,6 @@ nox.options.sessions = (
     "safety",
     "mypy",
     "tests",
-    "typeguard",
     "xdoctest",
     "docs-build",
 )
@@ -123,7 +122,6 @@ def precommit(session: Session) -> None:
         "black",
         "darglint",
         "flake8",
-        "flake8-bandit",
         "flake8-bugbear",
         "flake8-docstrings",
         "flake8-rst-docstrings",
@@ -180,14 +178,6 @@ def coverage(session: Session) -> None:
         session.run("coverage", "combine")
 
     session.run("coverage", *args)
-
-
-@session(python=python_versions[0])
-def typeguard(session: Session) -> None:
-    """Runtime type checking using Typeguard."""
-    session.install(".")
-    session.install("pytest", "typeguard", "pygments")
-    session.run("pytest", f"--typeguard-packages={package}", *session.posargs)
 
 
 @session(python=python_versions)
