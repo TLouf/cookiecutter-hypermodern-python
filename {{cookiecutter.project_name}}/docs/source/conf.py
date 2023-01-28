@@ -75,7 +75,7 @@ def linkcode_resolve(domain, info):
     else:
         linespec = ""
 
-    fn = os.path.relpath(fn, start=os.path.dirname(spylt.__file__))
+    fn = os.path.relpath(fn, start=os.path.dirname({{cookiecutter.package_name}}.__file__))
 
     return f"https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/master/{{cookiecutter.project_name}}/{fn}{linespec}"
 
