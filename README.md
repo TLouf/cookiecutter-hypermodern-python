@@ -56,7 +56,7 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 
 - Packaging and dependency management with [Poetry]
 - Test automation with [Nox]
-- Linting with [pre-commit] and [Flake8]
+- Linting with [pre-commit] and ruff ~~[Flake8]~~
 - Continuous integration with [GitHub Actions]
 - Documentation with [Sphinx], [MyST], and [Read the Docs] using the pydata ~~[furo]~~ theme
 - Automated uploads to [PyPI] and [TestPyPI]
