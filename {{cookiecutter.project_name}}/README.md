@@ -3,7 +3,7 @@
 [![PyPI](https://img.shields.io/pypi/v/{{cookiecutter.project_name}}.svg)][pypi status]
 [![Status](https://img.shields.io/pypi/status/{{cookiecutter.project_name}}.svg)][pypi status]
 [![Python Version](https://img.shields.io/pypi/pyversions/{{cookiecutter.project_name}})][pypi status]
-[![License](https://img.shields.io/pypi/l/{{cookiecutter.project_name}})][license]
+[![License](https://img.shields.io/pypi/l/{{cookiecutter.project_name}})][license file]
 
 [![Read the documentation at https://{{cookiecutter.project_name}}.readthedocs.io/](https://img.shields.io/readthedocs/{{cookiecutter.project_name}}/latest.svg?label=Read%20the%20Docs)][read the docs]
 [![Tests](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/workflows/Tests/badge.svg)][tests]
@@ -13,6 +13,7 @@
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
 
 [pypi status]: https://pypi.org/project/{{cookiecutter.project_name}}/
+[license file]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE
 [read the docs]: https://{{cookiecutter.project_name}}.readthedocs.io/
 [tests]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/actions?workflow=Tests
 [codecov]: https://app.codecov.io/gh/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}
@@ -42,7 +43,7 @@ To learn more, see the [Contributor Guide].
 
 ## License
 
-Distributed under the terms of the [{{cookiecutter.license.replace("-", " ")}} license][license],
+Distributed under the terms of the [{{cookiecutter.license.replace("-", " ")}} license][license page],
 _{{cookiecutter.friendly_name}}_ is free and open source software.
 
 ## Issues
@@ -52,7 +53,7 @@ please [file an issue] along with a detailed description.
 
 ## Credits
 
-This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter] template.
+This project was generated from a fork of [@cjolowicz]'s [Hypermodern Python Cookiecutter] template.
 
 [@cjolowicz]: https://github.com/cjolowicz
 [pypi]: https://pypi.org/
@@ -61,7 +62,5 @@ This project was generated from [@cjolowicz]'s [Hypermodern Python Cookiecutter]
 [pip]: https://pip.pypa.io/
 
 <!-- github-only -->
-
-[license]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE
+[license page]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/LICENSE
 [contributor guide]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.project_name}}/blob/main/CONTRIBUTING.md
-[command-line reference]: https://{{cookiecutter.project_name}}.readthedocs.io/en/latest/usage.html

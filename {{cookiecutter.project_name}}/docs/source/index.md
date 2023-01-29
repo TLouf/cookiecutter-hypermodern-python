@@ -4,7 +4,7 @@ end-before: <!-- github-only -->
 ---
 ```
 
-[license]: license
+[license page]: license
 [contributor guide]: contributing
 
 ```{toctree}
