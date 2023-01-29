@@ -67,14 +67,14 @@ $ cookiecutter gh:cjolowicz/cookiecutter-hypermodern-python --checkout=2022.6.3
 - Testing with [pytest]
 - Code coverage with [Coverage.py]
 - Coverage reporting with [Codecov]
-~~- Command-line interface with [Click]~~
+- ~~Command-line interface with [Click]~~
 - Static type-checking with [mypy]
-- Runtime type-checking with [Typeguard]
+- ~~Runtime type-checking with [Typeguard]~~
 - Automated Python syntax upgrades with [pyupgrade]
-~~- Security audit with [Bandit] and [Safety]~~
+- ~~Security audit with [Bandit] and [Safety]~~
 - Check documentation examples with [xdoctest]
 - Generate API documentation with [autodoc] and numpydoc ~~[napoleon]~~
-~~- Generate command-line reference with [sphinx-click]~~
+- ~~Generate command-line reference with [sphinx-click]~~
 - Manage project labels with [GitHub Labeler]
 
 The template supports Python 3.7, 3.8, 3.9, and 3.10.
